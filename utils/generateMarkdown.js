@@ -22,7 +22,6 @@ ${data.Installation}
 
 ## Usage
 ${data.Usage}
-<a href="https://app.screencastify.com/v3/watch/RiR6JqtNEWOFqEzxqVEF">Click here</a>
 
 
 ## License
