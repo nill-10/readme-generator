@@ -1,4 +1,4 @@
-# README-Generator
+# README-GENERATOR
 
 
 ## Description
@@ -23,7 +23,7 @@ run the command node index.js in your terminal. answer the prompts to provide in
 
 
 ## License
-the application is covered under ISC License License.
+the application is covered under ISC License .
 
 
 ## Contribution
@@ -37,5 +37,5 @@ To run tests, use the following command:
 ## Questions
 [GitHub profile](https://github.com/nill-10)
 
-For additional question reach Me Via Email: n.oshaghi@gmail.com
+For additional questions reach Me Via Email: n.oshaghi@gmail.com
 

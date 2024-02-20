@@ -25,7 +25,7 @@ ${data.Usage}
 
 
 ## License
-the application is covered under ${data.License} License.
+the application is covered under ${data.License} .
 
 
 ## Contribution
