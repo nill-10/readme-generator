@@ -41,8 +41,6 @@ ${data.Test}
 
 For additional questions reach Me Via Email: ${data.Email}
 
-### Walkthrough Video:
-
 `;
 }
 
