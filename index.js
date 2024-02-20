@@ -9,8 +9,11 @@ const questions = ['what is The title of the project ?','what is the description
 
 
 // function to write README file
-function writeToFile(fileName, data) {
-}
+// function writeToFile(fileName, data) {
+//     fs.writeFileSync(fileName, data, (err) =>
+//         err ? console.error(err) : console.log('successfully')
+//     );
+// }
 
 // function to initialize program
 function init() {
@@ -26,11 +29,7 @@ function init() {
             name : 'Description',
             message : 'what is the description of the project?',
         },
-        {
-            type : 'input',
-            name : 'Table of Contents',
-            message : 'what are the Table of Contents of the project?',
-        },
+       
         {
             type : 'input',
             name : 'Installation',
@@ -71,6 +70,8 @@ function init() {
     ])
     .then((data) => {
         console.log(data);
+        fs.writeFile("README.md",generateMarkdown(data),(err) =>
+        err ? console.error(err) : console.log('successfully Generated'))
     });
         
 };
