@@ -20,7 +20,7 @@ To install the README Generator, follow these steps:
 
 ## Usage
 run the command node index.js in your terminal. answer the prompts to provide information about your project,then answers will be add to your file and a professionally formatted README.md file will be generated.
-
+[video link]: https://app.screencastify.com/v3/watch/RiR6JqtNEWOFqEzxqVEF
 
 ## License
 the application is covered under ISC License .
