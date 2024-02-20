@@ -3,17 +3,6 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// array of questions for user
-const questions = ['what is The title of the project ?','what is the description of the project?','what are the Table of Contents of the project?','what is the installation instructions of the project?','what is usage information of the project?','what is the license for the application?','what is contribution guidelines of the project?','what is test instructions of the project?','what is your github username?','what is your email address?'];
-
-
-
-// function to write README file
-// function writeToFile(fileName, data) {
-//     fs.writeFileSync(fileName, data, (err) =>
-//         err ? console.error(err) : console.log('successfully')
-//     );
-// }
 
 // function to initialize program
 function init() {
@@ -76,5 +65,5 @@ function init() {
         
 };
 
-// function call to initialize program
+// function call to initialize program 
 init();
